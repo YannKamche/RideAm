@@ -1,3 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:wght@200;400;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: .2s ease-in-out;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+@layer components {
+  .max-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .btn {
+    @apply border-none outline-none bg-none cursor-pointer;
+  }
+
+  .primaryBtn {
+    @apply bg-primary-color py-[10px] px-[15px] rounded-[3px] font-bold text-white-color text-xs hover:bg-secondary-color hover:text-black-color
+  }
+
+  .container {
+    @apply px-6 
+  }
+  
+}
+
+@layer utilities {
+
+  .p {
+    @apply text-text-color leading-6;
+  }
+  
+  .section {
+    @apply pt-16 px-0 pb-8
+  }
+
+  .img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .secTitle {
+    @apply text-text-color text-xl
+  }
+  .icon {
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .sizeMenu {
+    font-size: 25px
+  }
+  .sizeClose {
+    font-size: 35px;
+  }
+
+  .showNavbar {
+    top: 7rem;
+    transition: .5s ease;
+  }
+
+}
