@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+        titilliumWeb: ['Titillium Web', 'sans-serif'],
+      },
       colors: {
         'primary-color': "#7a63f1",
         'secondary-color': "#ebe8fc",

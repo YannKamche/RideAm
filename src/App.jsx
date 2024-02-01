@@ -1,4 +1,4 @@
-import { Auction, Footer, Home, Navbar, Review, Search, Sellers, Trending } from './sections'
+import { Auction, Footer, Navbar, Home, Review, Search, Sellers, Trending } from './sections'
 import React from 'react'
 
 const App = () => {
@@ -6,10 +6,10 @@ const App = () => {
     <main className='relative max-container'>
       <Navbar />
 
-      <section>
+      <section className='container'>
         <Home />
       </section>
-
+      
       <section>
         <Search/>
       </section>

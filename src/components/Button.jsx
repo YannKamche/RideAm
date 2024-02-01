@@ -1,21 +1,23 @@
-const Button = ({label}) => {
-  return (
-    <button className="
-    py-[3px] 
-    px-3
-    
-    bg-primary-color
-     text-white-color
-    rounded-[3px]
-   
-    cursor-pointer
-    text-[14px]
-    hover:bg-secondary-color
-    hover:text-black-color
-    ">
-      {label}
-    </button>
-  )
-}
+import classNames from 'classnames';
 
-export default Button
+const Button = ({ label, primaryBtn, signUp, normalBtn }) => {
+  const buttonClasses = classNames(
+    'py-[10px]',
+    'px-[15px]',
+    'cursor-pointer',
+    'text-[14px]',
+    'hover:bg-text-color',
+    'hover:text-black-color',
+    {
+      'bg-secondary-color': !primaryBtn,
+      'font-bold, py-[0.25rem]': primaryBtn && signUp,
+      'bg-primary-color font-bold text-white-color hover:bg-secondary-color hover:text-black-color rounded-[5px]': primaryBtn,
+      'mt-2': !signUp,
+      'rounded-[5px]': normalBtn
+    }
+  );
+
+  return <button className={buttonClasses}>{label}</button>;
+};
+
+export default Button;
