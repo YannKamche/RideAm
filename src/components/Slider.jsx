@@ -34,7 +34,7 @@ const Slider = ({slides}) => {
       {slides.map(slide => (
         <SwiperSlide>
             <div className='mx-auto '>
-                <img src={slide} alt=""/>
+                <img src={slide} alt="" key={slide}/>
             </div>
         </SwiperSlide>
           
