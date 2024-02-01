@@ -46,7 +46,7 @@ const Navbar = () => {
     <header 
       ref={navRef}
       className={`container w-full ${isSticky ? "sticky top-0 shadow-lg z-50 bg-secondary-color": ""}`}>
-      <nav className="flex items-center justify-between w-full py-4 px-8 ">
+      <nav className="flex items-center justify-between w-full py-4 max-lg:px-4 px-8 ">
         <div className="">
           <img src={headerLogo5} alt="logo-image" width={50}/>
         </div>

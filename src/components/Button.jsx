@@ -5,6 +5,7 @@ const Button = ({ label, primaryBtn, signUp, normalBtn }) => {
     'py-[10px]',
     'px-[15px]',
     'cursor-pointer',
+    'max-sm:text-[10px]',
     'text-[14px]',
     'hover:bg-text-color',
     'hover:text-black-color',
