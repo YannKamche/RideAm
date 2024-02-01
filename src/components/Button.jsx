@@ -11,10 +11,11 @@ const Button = ({ label, primaryBtn, signUp, normalBtn }) => {
     'hover:text-black-color',
     {
       'bg-secondary-color': !primaryBtn,
-      'font-bold, py-[0.25rem] rounded-[3px]': primaryBtn && signUp,
-      'bg-primary-color font-bold text-white-color hover:bg-secondary-color hover:text-black-color rounded-[5px]': primaryBtn,
+      'py-[3px] px-[10px] rounded-[3px]': primaryBtn && signUp,
+      'bg-primary-color text-white-color hover:bg-secondary-color hover:text-black-color rounded-[5px]': primaryBtn,
       'mt-2': !signUp,
-      'rounded-[5px]': normalBtn
+      'rounded-[5px]': normalBtn,
+      'font-bold': primaryBtn && !signUp
     }
   );
 

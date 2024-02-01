@@ -52,8 +52,14 @@
     cursor: pointer;
   }
   .sizeMenu {
-    font-size: 25px
+    font-size: 25px;
   }
+  @media screen and (min-width: 768px){
+    .sizeMenu{
+      font-size: 30px;
+    }
+  }
+
   .sizeClose {
     font-size: 35px;
   }
