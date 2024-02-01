@@ -23,7 +23,7 @@
   }
 
    .container {
-    @apply max-lg:px-0 lg:m-auto 
+    @apply m-auto 
   }
 }
 
