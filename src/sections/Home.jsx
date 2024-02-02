@@ -3,6 +3,7 @@ import { heroImage } from "../constants"
 
 //import Slider component
 import Slider from "../components/Slider"
+import { heading } from "../constants"
 
 const Home = () => {
 
@@ -10,9 +11,9 @@ const Home = () => {
      <div className="max-lg:pt-8 lg:pt-8 w-full" id="home">
       <div className="py-0 px-[1.5rem] text-center grid max-lg:gap-8 lg:gap-10">
         <div>
-          <span className="max-lg:text-[18px] lg:text-[25px] text-text-color font-semibold">Meet your new car</span>
+          <span className="max-lg:text-[18px] lg:text-[25px] text-text-color font-semibold">{heading[0].subTitle}</span>
           <h1 className="max-lg:text-[32px] lg:text-[45px] text-black-color font-extrabold">
-            Honda Civic Type R
+            {heading[0].home}
           </h1>
           <div className="btn flex items-center justify-center gap-6 lg:mt-5">
             <Button label="More Details" normalBtn />

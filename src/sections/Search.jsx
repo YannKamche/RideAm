@@ -1,12 +1,13 @@
 import { inputs } from "../constants"
 import Button from "../components/Button"
+import { heading } from "../constants"
 
 const Search = () => {
 
   return (
     <div className="py-8 px-1">
       <div className="">
-        <h3 className="text-black-color text-2xl py-4 text-center font-bold">Which vehicle you are looking for?</h3>
+        <h3 className="text-black-color text-2xl py-4 text-center font-bold">{heading[1].search}</h3>
       
 
           <div className="grid gap-1 grid-cols-2 items-center px-4">
