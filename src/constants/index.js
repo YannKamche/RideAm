@@ -14,3 +14,8 @@ export const inputs = [
     {type: "text", placeholder: "Model"},
     {type: "number", placeholder: "Price" }
 ];
+
+export const heading = [
+    {home: "Honda Civic Type R", subTitle: "Meet your new car"},
+    {search: "Which vehicle you are looking for ?"}
+]
