@@ -14,7 +14,7 @@ const App = () => {
         <Search/>
       </section>
 
-      <section>
+      <section className='container'>
         <Trending />
       </section>
 
