@@ -8,7 +8,7 @@ import { heading } from "../constants"
 const Home = () => {
 
   return (
-     <div className="max-lg:pt-8 lg:pt-8 w-full" id="home">
+     <div className="pt-8 w-full" id="home">
       <div className="py-0 px-[1.5rem] text-center grid max-lg:gap-8 lg:gap-10">
         <div>
           <span className="max-lg:text-[18px] lg:text-[25px] text-text-color font-semibold">{heading[0].subTitle}</span>
