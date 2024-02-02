@@ -10,7 +10,7 @@ const App = () => {
         <Home />
       </section>
       
-      <section>
+      <section className='container'>
         <Search/>
       </section>
 

@@ -8,3 +8,9 @@ export const navLinks = [
 
 export const heroImage = [image1, image2, image3, image4]
 
+export const inputs = [
+    {type: "text", placeholder: "Type"},
+    {type: "number", placeholder: "Year"},
+    {type: "text", placeholder: "Model"},
+    {type: "number", placeholder: "Price" }
+]
