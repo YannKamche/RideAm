@@ -13,4 +13,4 @@ export const inputs = [
     {type: "number", placeholder: "Year"},
     {type: "text", placeholder: "Model"},
     {type: "number", placeholder: "Price" }
-]
+];
