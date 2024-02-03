@@ -7,7 +7,7 @@ const Search = () => {
 
   return (
     <div className="py-8 padding">
-      <div className="">
+      <div className="lg:px-24 xl:px-40">
         <h3 className="text-black-color text-2xl py-4 text-center font-bold">{heading[1].search}</h3>
       
 

@@ -8,10 +8,10 @@ import { trendings } from "../constants"
 const Trending = () => {
 
   return (
-    <div className="padding">
+    <div className="padding" id="new-cars">
       <div>
         <div className="flex justify-between py-4 px-0">
-          <h3 className="secTitle">{heading[2].trending}</h3>
+          <h3 className="secTitle font-bold">{heading[2].trending}</h3>
 
           <div className="gap-2 flex">
             <BsArrowLeftShort className="arrow-direction"/>

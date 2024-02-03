@@ -18,19 +18,19 @@ const App = () => {
         <Trending />
       </section>
 
-      <section>
+      <section className='container'>
         <Sellers />
       </section>
 
-      <section>
+      <section className='container'>
         <Auction />
       </section>
 
-      <section>
+      <section className='container'>
         <Review />
       </section>
 
-      <section>
+      <section className='container'>
         <Footer />
       </section>
     </main>

@@ -33,6 +33,10 @@
   .arrow-direction {
     @apply py-[3px] px-[5px] bg-secondary-color rounded-sm text-3xl cursor-pointer hover:bg-primary-color hover:text-white-color
   }
+
+  .secContainer {
+    margin-left: inherit
+  }
 }
 
 
@@ -73,6 +77,10 @@
   }
   .price {
     @apply cursor-pointer py-2 px-4 rounded font-semibold  transition-colors duration-300 ease-in-out
+  }
+
+  .imgDiv {
+    background: rgb(237, 237, 237);
   }
 
 }

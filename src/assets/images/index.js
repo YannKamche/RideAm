@@ -10,6 +10,11 @@ import trending4 from '../images/Trending/trending4.jpg'
 import trending5 from '../images/Trending/trending5.jpg'
 import trending6 from '../images/Trending/trending6.jpg'
 
+import toyota from '../images/Brand Logo/Toyota.png'
+import jaguar from '../images/Brand Logo/Jaguar.png'
+import renault from '../images/Brand Logo/Renault.png'
+import volkswagen from '../images/Brand Logo/Volkswagen.png'
+
 export {
     image1,
     image2,
@@ -21,5 +26,10 @@ export {
     trending3,
     trending4,
     trending5,
-    trending6
+    trending6,
+
+    toyota,
+    jaguar,
+    renault,
+    volkswagen
 }
