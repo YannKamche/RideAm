@@ -82,5 +82,8 @@
   .imgDiv {
     background: rgb(237, 237, 237);
   }
+  .singleCarActive {
+    @apply bg-secondary-color
+  }
 
 }
