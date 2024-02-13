@@ -3,7 +3,7 @@ const Cars = ({ carFeatures, carAuction, carTrending }) => {
     <>
       {carFeatures.map((feature) => (
         <div
-          key={feature.id}
+          key={feature.title}
           className={`
             grid 
             items-center 
@@ -28,7 +28,7 @@ const Cars = ({ carFeatures, carAuction, carTrending }) => {
             <span className="price bg-secondary-color text-primary-color hover:bg-primary-color hover:text-white">{feature.price}</span>
             
             {carAuction && (
-              <span className="price bg-primary-color text-white-color hover:bg-text-color hover:text-text-color">{feature.seller}</span>
+              <span className="price bg-primary-color text-white-color hover:bg-text-color hover:text-text-white">{feature.seller}</span>
             )}
 
             {carTrending && (

@@ -63,6 +63,9 @@
     font-size: 25px;
     cursor: pointer;
   }
+  .starIcon {
+    color: rgb(255, 165, 0);
+  }
   .sizeMenu {
     font-size: 25px;
   }
@@ -82,8 +85,6 @@
   .imgDiv {
     background: rgb(237, 237, 237);
   }
-  .singleCarActive {
-    @apply bg-secondary-color
-  }
+  
 
 }

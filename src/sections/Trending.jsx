@@ -20,6 +20,7 @@ const Trending = () => {
 
         </div>
 
+        {/* Trending Container */}
         <div className="grid items-center gap-8 max-lg:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <Cars carFeatures={trendings} carTrending/>
         </div>

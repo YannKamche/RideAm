@@ -21,6 +21,16 @@ import auction4 from '../images/Auction/auction4.jpg'
 import auction5 from '../images/Auction/auction5.jpg'
 import auction6 from '../images/Auction/auction6.jpg'
 
+import review1 from '../images/Reviews/image1.jpg'
+import review2 from '../images/Reviews/image2.jpg'
+import review3 from '../images/Reviews/image3.jpg'
+import review4 from '../images/Reviews/image4.jpg'
+
+import customer1 from '../images/Reviews/customer1.jpeg'
+import customer2 from '../images/Reviews/customer2.svg'
+import customer3 from '../images/Reviews/customer3.jpeg'
+
+
 export {
     image1,
     image2,
@@ -41,5 +51,14 @@ export {
     auction3,
     auction4,
     auction5,
-    auction6
+    auction6,
+
+    review1,
+    review2,
+    review3,
+    review4,
+
+    customer1,
+    customer2,
+    customer3
 }
