@@ -6,7 +6,21 @@ import { Autoplay, EffectCreative } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
+import React, {useEffect} from "react"
+
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 const Slider = ({slides}) => {
+
+  useEffect(() => {
+    Aos.init(
+      {
+        duration: 1000
+      }
+    )
+  }, [])
+
   return (
          <Swiper
          grabCursor={true}
@@ -29,10 +43,11 @@ const Slider = ({slides}) => {
           },
         }}
         modules={[Autoplay, EffectCreative]}
+        
          >
          
       {slides.map(slide => (
-        <SwiperSlide>
+        <SwiperSlide >
             <div className='mx-auto'>
                 <img src={slide} alt="" key={slide} />
             </div>

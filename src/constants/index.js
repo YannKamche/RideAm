@@ -25,7 +25,7 @@ export const heading = [
     {trending: "Trending Near You"},
     {sellers: "Explore top sellers in town", descr:"Mike Burningham holds the Guiness World Record for being the greatest salesman in the world"},
     {auction: "Active Auctions"},
-    {review: "Recent Reviews"}
+    {review: "Recent Reviews"},
 ];
 
 export const trendings = [
@@ -56,4 +56,12 @@ export const reviews = [
     {img: review1, alt: "car-image1", title: "2023 Cadiallac", desc: "Good cars are safe, fast, affordable to purchase, economical to operate, reliable, capacious, comfortable and attractive", reviewerImg: customer1, reviewerAlt: "review-image1", reviewerName: "John Anderson", extraInfo: "Chief Editor" },
     {img: review2, alt: "car-image1", title: "2023 Cadiallac", desc: "They are the best you will ever see on the autombile industry ever seen. Ultra comfortable and spatious", reviewerImg: customer2, reviewerAlt: "review-image1", reviewerName: "Emily Grant", extraInfo: "Senior Officer" },
     {img: review3, alt: "car-image1", title: "2023 Cadiallac", desc: "Perfect customer service. The cars are intact, brand new and at the top of their form", reviewerImg: customer3, reviewerAlt: "review-image1", reviewerName: "Mickel LeBeau", extraInfo: "Secretary General" },
+]
+
+export const footerContent = [
+    {title: "About", link: ["How it works", "Careers", "Affiliates", "Media"]},
+    {title: "Become Seller", link: ["Add Vehicles", "Resource Center", "Bonds", "Release Dates"]},
+    {title: "Community", link: ["Recommendation", "Gift Cards", "Top Ups", "Selling"]},
+    {title: "Booking Support", link: ["Latest Updates", "Help Center", "Garage", "Trust & Safety"]},
+    
 ]

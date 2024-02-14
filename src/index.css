@@ -23,7 +23,7 @@
   }
 
    .container {
-    @apply m-auto 
+    @apply m-auto md:px-4 
   }
 
   .padding {
@@ -57,7 +57,7 @@
   }
 
   .secTitle {
-    @apply text-black-color text-xl
+    @apply text-black-color text-xl lg:text-2xl font-poppins
   }
   .icon {
     font-size: 25px;
@@ -85,6 +85,15 @@
   .imgDiv {
     background: rgb(237, 237, 237);
   }
-  
 
+  ::selection {
+    @apply bg-primary-color text-white-color
+  }
+
+  ::-webkit-scrollbar {
+    @apply w-3 bg-secondary-color
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary-color rounded-sm
+  }
 }
